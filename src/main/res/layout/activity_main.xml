@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.android.quizie.MainActivity">
+
+        <TextView
+            style="@style/textView"
+            android:text="Ques1. World photography day is celebrated on ?" />
+
+        <RadioGroup
+            android:id="@+id/rg01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <RadioButton
+                android:id="@+id/rb11"
+                style="@style/radioButton"
+                android:text="18 august" />
+
+            <RadioButton
+                android:id="@+id/rb12"
+                style="@style/radioButton"
+
+                android:text="19 august" />
+
+            <RadioButton
+                android:id="@+id/rb13"
+                style="@style/radioButton"
+                android:text="20 august" />
+
+            <RadioButton
+                android:id="@+id/rb14"
+                style="@style/radioButton"
+                android:text="21 august" />
+        </RadioGroup>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="submit1"
+            android:text="Submit"
+            android:layout_margin="16dp"
+            android:padding="8dp"
+            android:background="#008060"
+            android:textAppearance="?android:textAppearanceLarge" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            style="@style/textView"
+            android:text="Ques2. Which two months in a year have the same calendar ?" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rb21"
+                style="@style/radioButton"
+                android:text="June, October" />
+
+            <RadioButton
+                android:id="@+id/rb22"
+                style="@style/radioButton"
+                android:text="April, November" />
+
+            <RadioButton
+                android:id="@+id/rb23"
+                style="@style/radioButton"
+                android:text="April, July" />
+
+            <RadioButton
+                android:id="@+id/rb24"
+                style="@style/radioButton"
+                android:text="October, December" />
+        </RadioGroup>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="submit2"
+            android:text="Submit"
+            android:layout_margin="16dp"
+            android:padding="8dp"
+            android:background="#008060"
+            android:textAppearance="?android:textAppearanceLarge" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            style="@style/textView"
+            android:text="Ques3. Absence of Democracy is ?" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rb31"
+                style="@style/radioButton"
+                android:text="Anarchy" />
+
+            <RadioButton
+                android:id="@+id/rb32"
+                style="@style/radioButton"
+                android:text="Biography" />
+
+            <RadioButton
+                android:id="@+id/rb33"
+                style="@style/radioButton"
+                android:text="Irreparable" />
+
+            <RadioButton
+                android:id="@+id/rb34"
+                style="@style/radioButton"
+                android:text="Catalogue" />
+        </RadioGroup>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="submit3"
+            android:text="Submit"
+            android:layout_margin="16dp"
+            android:padding="8dp"
+            android:background="#008060"
+            android:textAppearance="?android:textAppearanceLarge" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            style="@style/textView"
+            android:text="Ques4. Which country was the first to launch artificial satellite?" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rb41"
+                style="@style/radioButton"
+                android:text="USA" />
+
+            <RadioButton
+                android:id="@+id/rb42"
+                style="@style/radioButton"
+                android:text="Rusia" />
+
+            <RadioButton
+                android:id="@+id/rb43"
+                style="@style/radioButton"
+                android:text="China" />
+
+            <RadioButton
+                android:id="@+id/rb44"
+                style="@style/radioButton"
+                android:text="Germany" />
+        </RadioGroup>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="submit4"
+            android:text="Submit"
+            android:layout_margin="16dp"
+            android:padding="8dp"
+            android:background="#008060"
+            android:textAppearance="?android:textAppearanceLarge" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            style="@style/textView"
+            android:text="Ques5. A person who speaks two languages ?" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rb51"
+                style="@style/radioButton"
+                android:text="Bilingual" />
+
+            <RadioButton
+                android:id="@+id/rb52"
+                style="@style/radioButton"
+                android:text="Unilingual" />
+
+            <RadioButton
+                android:id="@+id/rb53"
+                style="@style/radioButton"
+                android:text="Multilingual" />
+
+            <RadioButton
+                android:id="@+id/rb54"
+                style="@style/radioButton"
+                android:text="trilingual" />
+        </RadioGroup>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="submit5"
+            android:text="Submit"
+            android:layout_margin="16dp"
+            android:padding="8dp"
+            android:background="#008060"
+            android:textAppearance="?android:textAppearanceLarge" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#008060"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:padding="8dp"
+            android:layout_margin="16dp"
+            android:textStyle="bold"
+            android:id="@+id/text"/>
+    </LinearLayout>
+</ScrollView>
